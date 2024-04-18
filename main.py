@@ -23,7 +23,7 @@ Returns:
     # TODO: Implement sum_of_squares_of_even
     output = 0
     for i in even_int_list:
-        if(i % 2 == 0)
+        if(i % 2 == 0):
             output = output + i
     return output
 # Main function
