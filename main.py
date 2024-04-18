@@ -24,7 +24,7 @@ Returns:
     output = 0
     for i in even_int_list:
         if(i % 2 == 0):
-            output = output + i
+            output = output + i * i
     return output
 # Main function
 def main():
